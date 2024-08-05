@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interaktivni Kviz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="quiz-container">
+            <div id="question">Pitanje će biti ovdje</div>
+            <div id="answers">
+                <!-- Odgovori će biti dinamički dodani ovdje -->
+            </div>
+            <div id="feedback" class="hidden">Pogrešan odgovor. Idemo na sljedeće pitanje!</div>
+            <button id="next-button" class="hidden">Sljedeće pitanje</button>
+        </div>
+        <div id="result" class="hidden">
+            <h2>Vaš rezultat je: <span id="score"></span></h2>
+            <button id="restart-button">Ponovno pokreni kviz</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
